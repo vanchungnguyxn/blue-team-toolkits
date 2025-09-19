@@ -265,7 +265,7 @@ SELECT DATE(ts, 'unixepoch') as date, COUNT(*) FROM events GROUP BY date;
 ```powershell
 # Open PowerShell as Administrator
 # Navigate to project directory
-cd C:\path\to\blue-team-toolkit
+cd C:\path\to\blue-team-toolkits
 
 # Install and run
 pip install -e .
